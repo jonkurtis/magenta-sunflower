@@ -23,38 +23,6 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: primary
-  - type: grid_section
-    title: Image Grid
-    subtitle: Grid Section Example
-    grid_items:
-      - type: grid_item
-        image: images/logo-1.svg
-        image_align: center
-      - type: grid_item
-        image: images/logo-2.svg
-        image_align: center
-      - type: grid_item
-        image: images/logo-3.svg
-        image_align: center
-      - type: grid_item
-        image: images/logo-4.svg
-        image_align: center
-      - type: grid_item
-        image: images/logo-5.svg
-        image_align: center
-      - type: grid_item
-        image: images/logo-6.svg
-        image_align: center
-      - type: grid_item
-        image: images/logo-7.svg
-        image_align: center
-      - type: grid_item
-        image: images/logo-8.svg
-        image_align: center
-    grid_cols: four
-    grid_gap_vert: medium
-    grid_gap_horiz: medium
-    align: center
   - type: features_section
     title: Features Section
     subtitle: Features Section Example
@@ -115,6 +83,38 @@ sections:
     feature_padding_vert: large
     align: center
     background_color: secondary
+  - type: grid_section
+    title: Image Grid
+    subtitle: Grid Section Example
+    grid_items:
+      - type: grid_item
+        image: images/logo-1.svg
+        image_align: center
+      - type: grid_item
+        image: images/logo-2.svg
+        image_align: center
+      - type: grid_item
+        image: images/logo-3.svg
+        image_align: center
+      - type: grid_item
+        image: images/logo-4.svg
+        image_align: center
+      - type: grid_item
+        image: images/logo-5.svg
+        image_align: center
+      - type: grid_item
+        image: images/logo-6.svg
+        image_align: center
+      - type: grid_item
+        image: images/logo-7.svg
+        image_align: center
+      - type: grid_item
+        image: images/logo-8.svg
+        image_align: center
+    grid_cols: four
+    grid_gap_vert: medium
+    grid_gap_horiz: medium
+    align: center
   - type: features_section
     features:
       - type: feature
